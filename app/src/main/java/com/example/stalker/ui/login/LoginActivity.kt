@@ -1,12 +1,13 @@
-package com.example.stalker
+package com.example.stalker.ui.login
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.stalker.R
 
-class connexion : AppCompatActivity() {
+class LoginActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_connexion)
+        setContentView(R.layout.activity_login)
     }
 }
