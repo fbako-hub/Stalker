@@ -3,4 +3,20 @@
     <color name="colorPrimary">#6200EE</color>
     <color name="colorPrimaryDark">#3700B3</color>
     <color name="colorAccent">#03DAC5</color>
+
+    <!--colors for modern ui-->
+    <color name="whiteTextColor">#fff</color>
+    <color name="primaryTextColor">#00a5ff</color>
+    <color name="loginBkColor">#f0f0f0</color>
+
+    <!--colros for card-->
+    <color name="whiteCardColor">#fff</color>
+
+    <color name="light_gray">#dbdbdb</color>
+    <color name="white">#ffffff</color>
+    <color name="bleu">#00A5FF</color>
+    <color name="black_effective">#2a2a2a</color>
+    <color name="yellow">#ffee58</color>
+    <color name="color_gray">#f9a825</color>
+    <color name="yellow_dark">#cabf45</color>
 </resources>
