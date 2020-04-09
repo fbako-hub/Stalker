@@ -5,6 +5,13 @@
     <string name="forget_password">Mot de passe oublié ?</string>
     <string name="email_hint">Identifiant</string>
     <string name="password_hint">Mot de passe</string>
+    <string name="confirm_password_hint">Confirmer votre mot de passe</string>
     <string name="connexion">Connexion</string>
+    <string name="password_change">Modification du mot de passe</string>
+    <string name="save_btn_text">Enregistrer</string>
+    <string name="inscription">Inscription</string>
+    <string name="pseudo">Pseudo</string>
+    <string name="register_btn_text">S'inscrire</string>
+    <string name="phone">Téléphone</string>
     <string name="header_logo_desc">Header logo desc</string>
 </resources>
