@@ -11,7 +11,14 @@
     <string name="save_btn_text">Enregistrer</string>
     <string name="inscription">Inscription</string>
     <string name="pseudo">Pseudo</string>
-    <string name="register_btn_text">S'inscrire</string>
+    <string name="name">Nom</string>
+    <string name="surname">Prénom</string>
+    <string name="birthday">Date de naissance</string>
+    <string name="city">Ville / Pays</string>
+    <string name="country">Pays</string>
+    <string name="register_btn_text">S\'inscrire</string>
     <string name="phone">Téléphone</string>
+    <string name="informations">Informations</string>
     <string name="header_logo_desc">Header logo desc</string>
+
 </resources>

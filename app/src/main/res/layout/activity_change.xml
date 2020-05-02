@@ -4,8 +4,8 @@
 
     <data>
         <variable
-            name="loginViewModel"
-            type="com.example.stalker.ui.login.LoginViewModel" />
+            name="changeViewModel"
+            type="com.example.stalker.ui.change.ChangeViewModel" />
     </data>
 
     <RelativeLayout style="@style/loginParent">

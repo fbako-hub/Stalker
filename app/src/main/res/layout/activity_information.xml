@@ -4,8 +4,8 @@
 
     <data>
         <variable
-            name="loginViewModel"
-            type="com.example.stalker.ui.login.LoginViewModel" />
+            name="informationsViewModel"
+            type="com.example.stalker.ui.informations.InformationsViewModel" />
     </data>
 
     <RelativeLayout style="@style/loginParent">
@@ -18,8 +18,8 @@
 
             <ImageView
                 android:layout_alignParentTop="true"
-                android:layout_width="100dp"
-                android:layout_height="100dp"
+                android:layout_width="190dp"
+                android:layout_height="190dp"
                 android:layout_centerInParent="true"
                 android:layout_gravity="center"
                 android:orientation="vertical"
@@ -33,7 +33,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginTop="100dp"
+            android:layout_marginTop="200dp"
             android:orientation="vertical">
 
             <LinearLayout
@@ -51,13 +51,13 @@
 
                     <TextView
                         style="@style/headerTextPrimary"
-                        android:text="@string/inscription"
+                        android:text="@string/informations"
                         />
 
                     <com.google.android.material.textfield.TextInputLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:id="@+id/layoutEmail"
+                        android:id="@+id/layoutNom"
                         android:backgroundTint="@color/yellow_dark"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
@@ -69,15 +69,15 @@
                         <com.google.android.material.textfield.TextInputEditText
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:id="@+id/etPseudo"
+                            android:id="@+id/etNom"
                             android:backgroundTint="@color/white"
-                            android:hint="@string/pseudo"/>
+                            android:hint="@string/name"/>
                     </com.google.android.material.textfield.TextInputLayout>
 
                     <com.google.android.material.textfield.TextInputLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:id="@+id/layoutEmail"
+                        android:id="@+id/layoutPrenom"
                         android:backgroundTint="@color/yellow_dark"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
@@ -89,16 +89,15 @@
                         <com.google.android.material.textfield.TextInputEditText
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:id="@+id/etEmail"
+                            android:id="@+id/etPrenom"
                             android:backgroundTint="@color/white"
-                            android:hint="@string/email_hint"/>
+                            android:hint="@string/surname"/>
                     </com.google.android.material.textfield.TextInputLayout>
-
 
                     <com.google.android.material.textfield.TextInputLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:id="@+id/layoutEmail"
+                        android:id="@+id/layoutDate"
                         android:backgroundTint="@color/yellow_dark"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
@@ -110,65 +109,66 @@
                         <com.google.android.material.textfield.TextInputEditText
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:id="@+id/etEmail"
+                            android:id="@+id/etDate"
+                            android:backgroundTint="@color/white"
+                            android:hint="@string/birthday"/>
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/layoutVille"
+                        android:backgroundTint="@color/yellow_dark"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginBottom="15dp"
+                        android:layout_marginEnd="8dp">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/etVille"
+                            android:backgroundTint="@color/white"
+                            android:hint="@string/city"/>
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/layoutTéléphone"
+                        android:backgroundTint="@color/yellow_dark"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginBottom="15dp"
+                        android:layout_marginEnd="8dp">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/etTéléphone"
                             android:backgroundTint="@color/white"
                             android:hint="@string/phone"/>
                     </com.google.android.material.textfield.TextInputLayout>
 
 
-                    <com.google.android.material.textfield.TextInputLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:id="@+id/layoutPassword"
-                        android:backgroundTint="@color/yellow_dark"
-                        app:layout_constraintTop_toBottomOf="@+id/layoutEmail"
-                        app:layout_constraintStart_toStartOf="parent"
-                        android:layout_marginStart="8dp"
-                        app:layout_constraintEnd_toEndOf="parent"
-                        android:layout_marginEnd="8dp">
-
-                        <com.google.android.material.textfield.TextInputEditText
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:id="@+id/etPassword"
-                            android:backgroundTint="@color/white"
-                            android:hint="@string/password_hint"
-                            android:inputType="textPassword" />
-                    </com.google.android.material.textfield.TextInputLayout>
-
-                    <com.google.android.material.textfield.TextInputLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:id="@+id/layoutPassword"
-                        android:backgroundTint="@color/yellow_dark"
-                        app:layout_constraintTop_toBottomOf="@+id/layoutEmail"
-                        app:layout_constraintStart_toStartOf="parent"
-                        android:layout_marginStart="8dp"
-                        app:layout_constraintEnd_toEndOf="parent"
-                        android:layout_marginEnd="8dp">
-
-                        <com.google.android.material.textfield.TextInputEditText
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:id="@+id/etPassword"
-                            android:backgroundTint="@color/white"
-                            android:hint="@string/confirm_password_hint"
-                            android:inputType="textPassword" />
-                    </com.google.android.material.textfield.TextInputLayout>
-
 
                     <com.google.android.material.button.MaterialButton
-                        android:id="@+id/cirLoginButton"
+                        android:id="@+id/cirSaveButton"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:layout_margin="15dp"
                         android:padding="10dp"
-                        android:text="@string/register_btn_text"
+                        android:text="@string/save_btn_text"
                         android:textColor="@color/black_effective"
                         android:backgroundTint="@color/color_gray"
                         android:textSize="18sp"
                         android:layout_marginTop="@dimen/loginViewsMargin"/>
+
 
                 </LinearLayout>
             </LinearLayout>
