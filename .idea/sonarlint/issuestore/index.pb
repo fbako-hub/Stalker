@@ -1,0 +1,19 @@
+
+u
+Eapp/src/main/java/com/example/stalker/ui/register/RegisterActicity.kt,2/e/2e0f51e488d1aa22659587c7debbf17dc4d3b0d7
+q
+Aapp/src/main/java/com/example/stalker/ui/profil/ProfilActivity.kt,3/3/3320084b597efb93e91b9e3a59ecca57d7665327
+q
+Aapp/src/main/java/com/example/stalker/ui/change/ChangeActivity.kt,7/6/76b66e3e08014242f249a59a4261ef011fc493ef
+}
+Mapp/src/main/java/com/example/stalker/ui/informations/InformationsActivity.kt,c/3/c3b047b4a5edd5072e34fd6e5c3750b3a6c287fd
+m
+=app/src/main/java/com/example/stalker/ui/main/MainActivity.kt,2/a/2a561a4680f08f3b174fd10eda5a31d3a9aeeb43
+P
+ app/src/main/AndroidManifest.xml,8/c/8c55c3ccc257e5907959013f99656e4c8ec3903e
+o
+?app/src/main/java/com/example/stalker/ui/login/LoginActivity.kt,e/e/ee40e7a9264781c7cb4cca3698ab89a6fcaa3b7b
+@
+app/build.gradle,f/4/f4a01d6a4fcb971362ec00a83903fd3902f52164
+v
+Fapp/src/main/java/com/example/stalker/ui/register/RegisterViewModel.kt,b/8/b8fb4e3ef4f9c57ea4d1a13778b800437996077c

@@ -8,26 +8,10 @@ import androidx.databinding.DataBindingUtil.setContentView
 import com.example.stalker.R
 import com.example.stalker.ui.informations.InformationsActivity
 
-class RegisterActicity : AppCompatActivity {
-
-    // Declaration de mon bouton
-
-    lateinit var cirRegisterButton : Button
+class RegisterActicity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_register)
-
-        //initialisation
-        cirRegisterButton = findViewById(R.id.cirRegisterButton)
-
-        //creation de notre intent
-        val monIntent : Intent = Intent(this,InformationsActivity::class.java)
-
-        //clic sur le bouton
-        cirRegisterButton.setOnClickListener {
-
-            startActivity(monIntent)
-        }
     }
 }

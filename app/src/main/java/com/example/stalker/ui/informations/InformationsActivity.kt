@@ -6,7 +6,7 @@ import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
 import com.example.stalker.R
 
-class InformationsActivity : AppCompatActivity {
+class InformationsActivity : AppCompatActivity() {
 
     // Declaration de mon bouton
 
@@ -27,4 +27,5 @@ class InformationsActivity : AppCompatActivity {
 
             startActivity(myIntent)
         }
+    }
 }

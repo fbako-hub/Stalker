@@ -78,7 +78,6 @@
                     <com.google.android.material.textfield.TextInputLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:id="@+id/layoutPassword"
                         android:backgroundTint="@color/yellow_dark"
                         app:layout_constraintTop_toBottomOf="@+id/layoutEmail"
                         app:layout_constraintStart_toStartOf="parent"
@@ -89,7 +88,7 @@
                         <com.google.android.material.textfield.TextInputEditText
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:id="@+id/etPassword"
+                            android:id="@+id/password"
                             android:backgroundTint="@color/white"
                             android:hint="@string/password_hint"
                             android:inputType="textPassword" />
@@ -98,7 +97,6 @@
                     <com.google.android.material.textfield.TextInputLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:id="@+id/layoutPassword"
                         android:backgroundTint="@color/yellow_dark"
                         app:layout_constraintTop_toBottomOf="@+id/layoutEmail"
                         app:layout_constraintStart_toStartOf="parent"
